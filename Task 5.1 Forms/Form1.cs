@@ -51,7 +51,7 @@ namespace Task_5._1_Forms
                 }
                 catch (Exception E)
                 {
-                         textBox4.Text += E.Message;
+                        MessageBox.Show(E.Message);
                 }
         }
     }
